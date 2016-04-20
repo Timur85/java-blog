@@ -38,7 +38,7 @@
 	           </security:authorize>
 	           <security:authorize access="isAuthenticated()">
 	           		<li class="${current=='users' ? 'active' : ''}"><a href="/tilesapp/account">My account</a></li>
-	           		<li><a href="/tilesapp/login/logout">Logout</a></li>
+	           		<li><a href="/tilesapp/logout">Logout</a></li>
 	           </security:authorize>
 	         </ul>
 	       </div><!--/.nav-collapse -->
